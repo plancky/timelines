@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+  
+body {
+    background-color:rgba(42, 42, 46, 1) ;
+    box-sizing: border-box;
+}
+
+#timeline {
+    /*background-color: aquamarine;*/
+    display: block;
+    width: 30cm;
+    height: 10cm;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 200px;
+    border: 2px solid rgba(173, 172, 172, 0.548);
+    padding-left: 2cm; 
+    overflow: auto;
+    text-align: center;
+}
+
+#timeline > .time-event {
+    background-color: aquamarine;
+    display: block;
+    width: auto;
+    height: 1.7cm;
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 20px;
+    border: 2px solid rgba(173, 172, 172, 0.548);
+    overflow: auto;
+    text-align: left;
+}
+/*--newtab-background-color:rgba(42, 42, 46, 1); --newtab-text-primary-color:rgba(249, 249, 250, 1); --lwt-sidebar-background-color:rgb(56, 56, 61); --lwt-sidebar-text-color:rgba(249, 249, 250, 1); --newtab-search-icon:url(moz-extension://840f4d09-ded7-47a6-8e16-e44d679b77cc/favicon.ico);*/
